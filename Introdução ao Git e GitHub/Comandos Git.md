@@ -37,4 +37,27 @@ $ git commit -m "commit inicial"
 [master (root-commit) 8c72207] commit inicial
  1 file changed, 27 insertions(+)
  create mode 100644 arquivo.md
+
+# Inclue um apelido no repositório neste caso foi incluido o apelido ComandosGit para o repositório abaixo
+$ git remote add ComandosGit https://github.com/canosa1995/dio-desafio-github-primeiro-repositorio.git
+
+# Mostra o status
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+# Inclui de fato a pasta Introdução ao Git e GitHub/Comandos Git.md no repositório
+$ git push ComandosGit
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.01 KiB | 257.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/canosa1995/dio-desafio-github-primeiro-repositorio.git
+   832328c..a6f42a2  main -> main
+
 ```
